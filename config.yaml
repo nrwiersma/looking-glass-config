@@ -1,0 +1,16 @@
+ui:
+  width: {{ .Env.SCREEN_WIDTH }}
+  height: {{ .Env.SCREEN_HEIGHT }}
+modules:
+  - name: simple-clock
+    path: github.com/glasslabs/clock
+    version: latest
+    position: top:right
+  - name: simple-weather
+    path: github.com/glasslabs/weather
+    version: latest
+    position: top:left
+    config:
+      locationId: 996506
+      appId: {{ .Secrets.weather.appId }}
+      units: metric
