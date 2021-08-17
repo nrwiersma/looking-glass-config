@@ -4,11 +4,11 @@ ui:
 modules:
   - name: simple-clock
     path: github.com/glasslabs/clock
-    version: latest
+    version: v0.1.0
     position: top:right
   - name: simple-weather
     path: github.com/glasslabs/weather
-    version: latest
+    version: v0.1.0
     position: top:left
     config:
       locationId: 996506
@@ -16,7 +16,7 @@ modules:
       units: metric
   - name: simple-calendar
     path: github.com/glasslabs/calendar
-    version: latest
+    version: v0.1.0
     position: top:right
     config:
       timezone: Africa/Johannesburg
@@ -25,7 +25,8 @@ modules:
         - url: https://www.calendarlabs.com/ical-calendar/ics/68/South_Africa_Holidays.ics
         - url: {{ .Secrets.calendar.myCalendar }}
   - name: hass-floorplan
-    path: hass-floorplan
+    path: github.com/glasslabs/hass-floorplan
+    version: v0.1.0
     position: bottom:center
     config:
       url: {{ .Secrets.hass.url }}
