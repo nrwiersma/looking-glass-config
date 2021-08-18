@@ -62,8 +62,8 @@
             <rect id="binary_sensor.front_door" class="door" stroke="#FFFFFF" fill="#FFFFFF" x="208.9" y="254" width="25.1" height="2"></rect>
             <rect id="binary_sensor.kitchen_door" class="door" stroke="#FFFFFF" fill="#FFFFFF" x="23.7" y="287.4" width="15.6" height="2"></rect>
             <rect id="binary_sensor.diningroom_door" class="door" stroke="#FFFFFF" fill="#FFFFFF" x="1.42108547e-14" y="173.9" width="2" height="27.1"></rect>
-            <rect id="cover.garage_door_left" class="door" stroke="#464646" fill="#464646" x="252.7" y="288.7" width="37" height="2"></rect>
-            <rect id="cover.garage_door_right" class="door" stroke="#464646" fill="#464646" x="295.7" y="288.7" width="37" height="2"></rect>
+            <rect id="cover.garage_door_right" class="door" stroke="#464646" fill="#464646" x="252.7" y="288.7" width="37" height="2"></rect>
+            <rect id="cover.garage_door_left" class="door" stroke="#464646" fill="#464646" x="295.7" y="288.7" width="37" height="2"></rect>
         </g>
         <g id="light" transform="translate(24.000000, 150.500000)" fill="#464646" fill-rule="nonzero" stroke="#464646" stroke-opacity="0.5" stroke-width="5">
             <circle id="light.lounge_lamp_1" class="light" cx="166" cy="170" r="5"></circle>
