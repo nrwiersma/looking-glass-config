@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    height: 100%;
+    width: calc(100% - 10px);
+}
+
+.module {
+    margin-bottom: 10px;
+}
