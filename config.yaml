@@ -1,7 +1,7 @@
 ui:
   width: {{ .Env.SCREEN_WIDTH }}
   height: {{ .Env.SCREEN_HEIGHT }}
-  customCSS:
+  customCss:
     - {{ .ConfigPath }}/assets/style.css
 modules:
   - name: simple-clock
