@@ -1,7 +1,8 @@
 ui:
   width: {{ .Env.SCREEN_WIDTH }}
   height: {{ .Env.SCREEN_HEIGHT }}
-  customCSS: {{ .ConfigPath }}/assets/style.css
+  customCSS:
+    - {{ .ConfigPath }}/assets/style.css
 modules:
   - name: simple-clock
     path: github.com/glasslabs/clock
