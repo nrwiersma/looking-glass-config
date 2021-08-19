@@ -1,7 +1,7 @@
 body {
-    margin: 0;
-    height: 100%;
-    width: calc(100% - 10px);
+    margin: 20px;
+    height: calc(100% - 40px);
+    width: calc(100% - 40px);
 }
 
 .module {

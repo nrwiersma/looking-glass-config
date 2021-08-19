@@ -10,7 +10,7 @@ modules:
     position: top:right
   - name: simple-weather
     path: github.com/glasslabs/weather
-    version: v0.1.0
+    version: v0.1.1
     position: top:left
     config:
       locationId: 996506
