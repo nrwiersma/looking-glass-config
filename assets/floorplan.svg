@@ -68,7 +68,7 @@
         <g id="light" transform="translate(24.000000, 150.500000)" fill="#464646" fill-rule="nonzero" stroke="#464646" stroke-opacity="0.5" stroke-width="5">
             <circle id="light.lounge_lamp_1" class="light" cx="166" cy="170" r="5"></circle>
             <circle id="light.lounge_lamp_2" class="light" cx="166" cy="99" r="5"></circle>
-            <circle id="light.verandah" class="light" cx="245" cy="65" r="5"></circle>
+            <circle id="light.outside" class="light" cx="245" cy="65" r="5"></circle>
             <circle id="light.lounge_main" class="light" cx="138" cy="135" r="5"></circle>
             <circle id="light.night" class="light" cx="98" cy="195" r="5"></circle>
             <circle id="light.kitchen" class="light" cx="76" cy="238" r="5"></circle>
@@ -84,6 +84,7 @@
             <circle id="light.driveway" class="light" cx="335" cy="268" r="5"></circle>
             <circle id="light.bar_lamp" class="light" cx="5" cy="5" r="5"></circle>
             <circle id="light.bedroom" class="light" cx="451" cy="98" r="5"></circle>
+            <circle id="light.verandah" class="light" cx="48" cy="-77" r="5"></circle>
         </g>
     </g>
 </svg>
