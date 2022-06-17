@@ -28,7 +28,7 @@ modules:
         - url: {{ .Secrets.calendar.myCalendar }}
   - name: simple-iotawatt
     path: github.com/glasslabs/iotawatt
-    version: init
+    version: v0.1.0
     position: bottom:left
     config:
       url: http://iotawatt.wiersma.iot/
