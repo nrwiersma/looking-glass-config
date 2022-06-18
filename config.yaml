@@ -26,23 +26,23 @@ modules:
       calendars:
         - url: https://www.calendarlabs.com/ical-calendar/ics/68/South_Africa_Holidays.ics
         - url: {{ .Secrets.calendar.myCalendar }}
-  - name: simple-iotawatt
-    path: github.com/glasslabs/iotawatt
-    version: v0.1.1
-    position: bottom:left
-    config:
-      url: http://iotawatt.wiersma.iot/
-      inputs:
-        - stove
-        - lights1
-        - lights2
-        - pool
-        - plugs1
-        - plugs2
-        - plugs3
-        - plugs4
-        - garage
-        - geyser
+#  - name: simple-iotawatt
+#    path: github.com/glasslabs/iotawatt
+#    version: v0.1.1
+#    position: bottom:left
+#    config:
+#      url: http://iotawatt.wiersma.iot/
+#      inputs:
+#        - stove
+#        - lights1
+#        - lights2
+#        - pool
+#        - plugs1
+#        - plugs2
+#        - plugs3
+#        - plugs4
+#        - garage
+#        - geyser
   - name: hass-floorplan
     path: github.com/glasslabs/hass-floorplan
     version: v0.1.0
