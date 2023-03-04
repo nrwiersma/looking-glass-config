@@ -58,7 +58,7 @@
         </g>
         <g id="doors" transform="translate(13.300000, 129.300000)" fill-rule="nonzero">
             <rect id="binary_sensor.outside_door" class="door" stroke="#FFFFFF" fill="#FFFFFF" x="202.4" y="108.1" width="15.7" height="2"></rect>
-            <rect id="binary_sensor.verandah_door" class="door" stroke="#FFFFFF" fill="#FFFFFF" x="44.3" y="2.84217094e-14" width="31.4" height="2"></rect>
+            <rect id="binary_sensor.veranda_door" class="door" stroke="#FFFFFF" fill="#FFFFFF" x="44.3" y="2.84217094e-14" width="31.4" height="2"></rect>
             <rect id="binary_sensor.front_door" class="door" stroke="#FFFFFF" fill="#FFFFFF" x="208.9" y="254" width="25.1" height="2"></rect>
             <rect id="binary_sensor.kitchen_door" class="door" stroke="#FFFFFF" fill="#FFFFFF" x="23.7" y="287.4" width="15.6" height="2"></rect>
             <rect id="binary_sensor.diningroom_door" class="door" stroke="#FFFFFF" fill="#FFFFFF" x="1.42108547e-14" y="173.9" width="2" height="27.1"></rect>
@@ -84,7 +84,7 @@
             <circle id="light.driveway" class="light" cx="335" cy="268" r="5"></circle>
             <circle id="light.bar_lamp" class="light" cx="5" cy="5" r="5"></circle>
             <circle id="light.bedroom" class="light" cx="451" cy="98" r="5"></circle>
-            <circle id="light.verandah" class="light" cx="48" cy="-77" r="5"></circle>
+            <circle id="light.veranda" class="light" cx="48" cy="-77" r="5"></circle>
         </g>
     </g>
 </svg>
