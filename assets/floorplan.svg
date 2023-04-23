@@ -77,7 +77,7 @@
             <circle id="light.hallway" class="light" cx="312" cy="181" r="5"></circle>
             <circle id="light.toilet" class="light" cx="252" cy="211" r="5"></circle>
             <circle id="light.bathroom" class="light" cx="291" cy="211" r="5"></circle>
-            <circle id="light.study" class="light" cx="352" cy="211" r="5"></circle>
+            <circle id="switch.study_right" class="light" cx="352" cy="211" r="5"></circle>
             <circle id="light.ensuite" class="light" cx="413" cy="211" r="5"></circle>
             <circle id="light.dining_room" class="light" cx="42" cy="170" r="5"></circle>
             <circle id="light.bar" class="light" cx="48" cy="61" r="5"></circle>
