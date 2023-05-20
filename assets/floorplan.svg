@@ -66,25 +66,24 @@
             <rect id="cover.garage_door_left" class="door" stroke="#464646" fill="#464646" x="295.7" y="288.7" width="37" height="2"></rect>
         </g>
         <g id="light" transform="translate(24.000000, 150.500000)" fill="#464646" fill-rule="nonzero" stroke="#464646" stroke-opacity="0.5" stroke-width="5">
-            <circle id="light.lounge_lamp_1" class="light" cx="166" cy="170" r="5"></circle>
-            <circle id="light.lounge_lamp_2" class="light" cx="166" cy="99" r="5"></circle>
+            <circle id="switch.lounge_lamp_right" class="light" cx="166" cy="170" r="5"></circle>
+            <circle id="switch.lounge_lamp_left" class="light" cx="166" cy="99" r="5"></circle>
             <circle id="light.outside" class="light" cx="245" cy="65" r="5"></circle>
-            <circle id="light.lounge_main" class="light" cx="138" cy="135" r="5"></circle>
-            <circle id="light.night" class="light" cx="98" cy="195" r="5"></circle>
-            <circle id="light.kitchen" class="light" cx="76" cy="238" r="5"></circle>
+            <circle id="switch.lounge_left" class="light" cx="138" cy="135" r="5"></circle>
+            <circle id="switch.kitchen_right" class="light" cx="76" cy="238" r="5"></circle>
             <circle id="light.entrance" class="light" cx="213" cy="202" r="5"></circle>
             <circle id="light.breezeway" class="light" cx="201" cy="128" r="5"></circle>
             <circle id="light.hallway" class="light" cx="312" cy="181" r="5"></circle>
             <circle id="light.toilet" class="light" cx="252" cy="211" r="5"></circle>
             <circle id="light.bathroom" class="light" cx="291" cy="211" r="5"></circle>
             <circle id="switch.study_right" class="light" cx="352" cy="211" r="5"></circle>
-            <circle id="light.ensuite" class="light" cx="413" cy="211" r="5"></circle>
-            <circle id="light.dining_room" class="light" cx="42" cy="170" r="5"></circle>
-            <circle id="light.bar" class="light" cx="48" cy="61" r="5"></circle>
+            <circle id="switch.bedroom_left" class="light" cx="413" cy="211" r="5"></circle>
+            <circle id="switch.kitchen_left" class="light" cx="42" cy="170" r="5"></circle>
+            <circle id="switch.bar_right" class="light" cx="48" cy="61" r="5"></circle>
             <circle id="light.driveway" class="light" cx="335" cy="268" r="5"></circle>
-            <circle id="light.bar_lamp" class="light" cx="5" cy="5" r="5"></circle>
-            <circle id="light.bedroom" class="light" cx="451" cy="98" r="5"></circle>
-            <circle id="light.veranda" class="light" cx="48" cy="-77" r="5"></circle>
+            <circle id="switch.bar_lamp" class="light" cx="5" cy="5" r="5"></circle>
+            <circle id="switch.bedroom_right" class="light" cx="451" cy="98" r="5"></circle>
+            <circle id="switch.bar_left" class="light" cx="48" cy="-77" r="5"></circle>
         </g>
     </g>
 </svg>
