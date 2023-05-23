@@ -57,10 +57,10 @@
             <polygon id="Path" points="78.0051872 117.93 83.3234955 117.93 82.353804 122.26 78.0051872 122.26"></polygon>
         </g>
         <g id="doors" transform="translate(13.300000, 129.300000)" fill-rule="nonzero">
-            <rect id="binary_sensor.outside_door" class="door" stroke="#FFFFFF" fill="#FFFFFF" x="202.4" y="108.1" width="15.7" height="2"></rect>
-            <rect id="binary_sensor.veranda_door" class="door" stroke="#FFFFFF" fill="#FFFFFF" x="44.3" y="2.84217094e-14" width="31.4" height="2"></rect>
-            <rect id="binary_sensor.front_door" class="door" stroke="#FFFFFF" fill="#FFFFFF" x="208.9" y="254" width="25.1" height="2"></rect>
-            <rect id="binary_sensor.kitchen_door" class="door" stroke="#FFFFFF" fill="#FFFFFF" x="23.7" y="287.4" width="15.6" height="2"></rect>
+            <rect id="binary_sensor.back_door_contact" class="door" stroke="#FFFFFF" fill="#FFFFFF" x="202.4" y="108.1" width="15.7" height="2"></rect>
+            <rect id="binary_sensor.veranda_door_contact" class="door" stroke="#FFFFFF" fill="#FFFFFF" x="44.3" y="2.84217094e-14" width="31.4" height="2"></rect>
+            <rect id="binary_sensor.front_door_contact" class="door" stroke="#FFFFFF" fill="#FFFFFF" x="208.9" y="254" width="25.1" height="2"></rect>
+            <rect id="binary_sensor.kitchen_door_contact" class="door" stroke="#FFFFFF" fill="#FFFFFF" x="23.7" y="287.4" width="15.6" height="2"></rect>
             <rect id="binary_sensor.diningroom_door" class="door" stroke="#FFFFFF" fill="#FFFFFF" x="1.42108547e-14" y="173.9" width="2" height="27.1"></rect>
             <rect id="cover.garage_door_right" class="door" stroke="#464646" fill="#464646" x="252.7" y="288.7" width="37" height="2"></rect>
             <rect id="cover.garage_door_left" class="door" stroke="#464646" fill="#464646" x="295.7" y="288.7" width="37" height="2"></rect>
