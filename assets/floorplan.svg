@@ -1,4 +1,4 @@
-<svg width="525px" height="432px" viewBox="0 0 525 432" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="525px" height="460px" viewBox="0 0 525 460" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <g id="floorplan" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="windows" transform="translate(11.000000, 10.000000)" fill="#FFFFFF" stroke="#FFFFFF">
             <polygon id="Path" points="471.168709 372.3 482.955675 372.3 482.955675 377.587362 471.168709 377.587362"></polygon>
@@ -84,6 +84,8 @@
             <circle id="switch.bar_lamp" class="light" cx="5" cy="5" r="5"></circle>
             <circle id="switch.bedroom_right" class="light" cx="451" cy="98" r="5"></circle>
             <circle id="switch.bar_left" class="light" cx="48" cy="-77" r="5"></circle>
+            <circle id="switch.scullery_left" class="light" cx="11" cy="238" r="5"></circle>
+            <circle id="switch.scullery_right" class="light" cx="76" cy="288" r="5"></circle>
         </g>
     </g>
 </svg>
