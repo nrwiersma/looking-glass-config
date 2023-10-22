@@ -24,7 +24,7 @@ modules:
         - url: https://www.calendarlabs.com/ical-calendar/ics/68/South_Africa_Holidays.ics
         - url: {{ .Secrets.calendar.myCalendar }}
   - name: solar
-    uri: https://github.com/glasslabs/solar/releases/download/v1.0.0/solar.wasm
+    uri: https://github.com/glasslabs/solar/releases/download/v1.0.1/solar.wasm
     position: bottom:left
     config:
       url: {{ .Secrets.hass.url }}
