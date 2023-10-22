@@ -5,20 +5,17 @@ ui:
     - {{ .ConfigPath }}/assets/style.css
 modules:
   - name: simple-clock
-    path: github.com/glasslabs/clock
-    version: v0.1.0
+    uri: https://github.com/glasslabs/clock/releases/download/v1.0.0/clock.wasm
     position: top:right
   - name: simple-weather
-    path: github.com/glasslabs/weather
-    version: v0.1.1
+    uri: https://github.com/glasslabs/weather/releases/download/v1.0.0/weather.wasm
     position: top:left
     config:
       locationId: 996506
       appId: {{ .Secrets.weather.appId }}
       units: metric
   - name: simple-calendar
-    path: github.com/glasslabs/calendar
-    version: v0.1.0
+    uri: https://github.com/glasslabs/calendar/releases/download/v1.0.0/calendar.wasm
     position: top:right
     config:
       timezone: Africa/Johannesburg
@@ -26,28 +23,27 @@ modules:
       calendars:
         - url: https://www.calendarlabs.com/ical-calendar/ics/68/South_Africa_Holidays.ics
         - url: {{ .Secrets.calendar.myCalendar }}
-#  - name: simple-iotawatt
-#    path: github.com/glasslabs/iotawatt
-#    version: v0.1.1
-#    position: bottom:left
-#    config:
-#      url: http://iotawatt.wiersma.iot/
-#      inputs:
-#        - stove
-#        - lights1
-#        - lights2
-#        - pool
-#        - plugs1
-#        - plugs2
-#        - plugs3
-#        - plugs4
-#        - garage
-#        - geyser
+  - name: solar
+    uri: https://github.com/glasslabs/solar/releases/download/v1.0.0/solar.wasm
+    position: bottom:left
+    config:
+      url: {{ .Secrets.hass.url }}
+      token: {{ .Secrets.hass.token }}
+      sensorIds:
+        load: sensor.deye_sunsynk_sol_ark_load_power
+        pv: sensor.deye_sunsynk_sol_ark_pv_power
+        battery: sensor.deye_sunsynk_sol_ark_battery_power
+        batterySoC: sensor.deye_sunsynk_sol_ark_battery_state_of_charge
+        grid: sensor.deye_sunsynk_sol_ark_generator_power
+        gridFrequency: sensor.deye_sunsynk_sol_ark_grid_frequency
+      battery:
+        warning: 50
+        low: 30
+      maxWatts: 6000
   - name: hass-floorplan
-    path: github.com/glasslabs/hass-floorplan
-    version: v0.1.0
+    uri: https://github.com/glasslabs/hass-floorplan/releases/download/v1.0.0/hass-floorplan.wasm
     position: bottom:center
     config:
       url: {{ .Secrets.hass.url }}
       token: {{ .Secrets.hass.token }}
-      floorplan: {{ .ConfigPath }}/assets/floorplan.svg
+      floorplan: floorplan.svg
