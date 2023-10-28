@@ -34,7 +34,7 @@ modules:
         pv: sensor.deye_sunsynk_sol_ark_pv_power
         battery: sensor.deye_sunsynk_sol_ark_battery_power
         batterySoC: sensor.deye_sunsynk_sol_ark_battery_state_of_charge
-        grid: sensor.deye_sunsynk_sol_ark_generator_power
+        grid: sensor.sensor.deye_sunsynk_sol_ark_grid_power
         gridFrequency: sensor.deye_sunsynk_sol_ark_grid_frequency
       battery:
         warning: 50
