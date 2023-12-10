@@ -57,35 +57,35 @@
             <polygon id="Path" points="78.0051872 117.93 83.3234955 117.93 82.353804 122.26 78.0051872 122.26"></polygon>
         </g>
         <g id="doors" transform="translate(13.300000, 129.300000)" fill-rule="nonzero">
-            <rect id="binary_sensor.back_door_contact" class="door" stroke="#FFFFFF" fill="#FFFFFF" x="202.4" y="108.1" width="15.7" height="2"></rect>
-            <rect id="binary_sensor.veranda_door_contact" class="door" stroke="#FFFFFF" fill="#FFFFFF" x="44.3" y="2.84217094e-14" width="31.4" height="2"></rect>
-            <rect id="binary_sensor.front_door_contact" class="door" stroke="#FFFFFF" fill="#FFFFFF" x="208.9" y="254" width="25.1" height="2"></rect>
-            <rect id="binary_sensor.kitchen_door_contact" class="door" stroke="#FFFFFF" fill="#FFFFFF" x="23.7" y="287.4" width="15.6" height="2"></rect>
-            <rect id="binary_sensor.diningroom_door" class="door" stroke="#FFFFFF" fill="#FFFFFF" x="1.42108547e-14" y="173.9" width="2" height="27.1"></rect>
+            <rect id="binary_sensor.back_door" class="door" stroke="#FFFFFF" fill="#FFFFFF" x="202.4" y="108.1" width="15.7" height="2"></rect>
+            <rect id="binary_sensor.veranda_door" class="door" stroke="#FFFFFF" fill="#FFFFFF" x="44.3" y="2.84217094e-14" width="31.4" height="2"></rect>
+            <rect id="binary_sensor.front_door" class="door" stroke="#FFFFFF" fill="#FFFFFF" x="208.9" y="254" width="25.1" height="2"></rect>
+            <rect id="binary_sensor.kitchen_door" class="door" stroke="#FFFFFF" fill="#FFFFFF" x="23.7" y="287.4" width="15.6" height="2"></rect>
+            <rect id="binary_sensor.dining_room_door" class="door" stroke="#FFFFFF" fill="#FFFFFF" x="1.42108547e-14" y="173.9" width="2" height="27.1"></rect>
             <rect id="cover.garage_door_right" class="door" stroke="#464646" fill="#464646" x="252.7" y="288.7" width="37" height="2"></rect>
             <rect id="cover.garage_door_left" class="door" stroke="#464646" fill="#464646" x="295.7" y="288.7" width="37" height="2"></rect>
         </g>
         <g id="light" transform="translate(24.000000, 150.500000)" fill="#464646" fill-rule="nonzero" stroke="#464646" stroke-opacity="0.5" stroke-width="5">
-            <circle id="switch.lounge_lamp_right" class="light" cx="166" cy="170" r="5"></circle>
-            <circle id="switch.lounge_lamp_left" class="light" cx="166" cy="99" r="5"></circle>
+            <circle id="light.lounge_lamp_right" class="light" cx="166" cy="170" r="5"></circle>
+            <circle id="light.lounge_lamp_left" class="light" cx="166" cy="99" r="5"></circle>
             <circle id="light.outside" class="light" cx="245" cy="65" r="5"></circle>
-            <circle id="switch.lounge_left" class="light" cx="138" cy="135" r="5"></circle>
-            <circle id="switch.kitchen_right" class="light" cx="76" cy="238" r="5"></circle>
+            <circle id="light.lounge_main" class="light" cx="138" cy="135" r="5"></circle>
+            <circle id="light.kitchen" class="light" cx="76" cy="238" r="5"></circle>
             <circle id="light.entrance" class="light" cx="213" cy="202" r="5"></circle>
             <circle id="light.breezeway" class="light" cx="201" cy="128" r="5"></circle>
             <circle id="light.hallway" class="light" cx="312" cy="181" r="5"></circle>
             <circle id="light.toilet" class="light" cx="252" cy="211" r="5"></circle>
             <circle id="light.bathroom" class="light" cx="291" cy="211" r="5"></circle>
-            <circle id="switch.study_right" class="light" cx="352" cy="211" r="5"></circle>
-            <circle id="switch.bedroom_left" class="light" cx="413" cy="211" r="5"></circle>
-            <circle id="switch.kitchen_left" class="light" cx="42" cy="170" r="5"></circle>
-            <circle id="switch.bar_right" class="light" cx="48" cy="61" r="5"></circle>
+            <circle id="light.study" class="light" cx="352" cy="211" r="5"></circle>
+            <circle id="light.ensuite" class="light" cx="413" cy="211" r="5"></circle>
+            <circle id="light.dining_room" class="light" cx="42" cy="170" r="5"></circle>
+            <circle id="light.bar" class="light" cx="48" cy="61" r="5"></circle>
             <circle id="light.driveway" class="light" cx="335" cy="268" r="5"></circle>
-            <circle id="switch.bar_lamp" class="light" cx="5" cy="5" r="5"></circle>
-            <circle id="switch.bedroom_right" class="light" cx="451" cy="98" r="5"></circle>
-            <circle id="switch.bar_left" class="light" cx="48" cy="-77" r="5"></circle>
-            <circle id="switch.scullery_left" class="light" cx="11" cy="238" r="5"></circle>
-            <circle id="switch.scullery_right" class="light" cx="76" cy="288" r="5"></circle>
+            <circle id="light.bar_lamp" class="light" cx="5" cy="5" r="5"></circle>
+            <circle id="light.bedroom" class="light" cx="451" cy="98" r="5"></circle>
+            <circle id="light.veranda" class="light" cx="48" cy="-77" r="5"></circle>
+            <circle id="light.scullery" class="light" cx="11" cy="238" r="5"></circle>
+            <circle id="light.laundry" class="light" cx="76" cy="288" r="5"></circle>
         </g>
     </g>
 </svg>
