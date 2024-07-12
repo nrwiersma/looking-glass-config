@@ -48,7 +48,7 @@ modules:
       token: {{ .Secrets.hass.token }}
       floorplan: floorplan.svg
   - name: water
-    uri: https://github.com/glasslabs/water/releases/download/v0.1.1/water.wasm
+    uri: https://github.com/glasslabs/water/releases/download/v0.1.2/water.wasm
     position: bottom:right
     config:
       url: {{ .Secrets.hass.url }}
