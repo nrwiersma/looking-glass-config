@@ -47,3 +47,18 @@ modules:
       url: {{ .Secrets.hass.url }}
       token: {{ .Secrets.hass.token }}
       floorplan: floorplan.svg
+  - name: water
+    uri: https://github.com/glasslabs/water/releases/download/v0.1.1/water.wasm
+    position: bottom:right
+    config:
+      url: {{ .Secrets.hass.url }}
+      token: {{ .Secrets.hass.token }}
+      sensorIds:
+        geyserPct: sensor.geyser_hot_water
+        tankPct: sensor.reservoir_percentage
+      geyser:
+        warning: 60
+        low: 40
+      tank:
+        warning: 80
+        low: 30
