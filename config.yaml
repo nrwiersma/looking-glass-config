@@ -60,5 +60,5 @@ modules:
         warning: 60
         low: 40
       tank:
-        warning: 80
+        warning: 95
         low: 30
