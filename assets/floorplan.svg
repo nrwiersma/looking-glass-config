@@ -73,6 +73,7 @@
             <circle id="light.kitchen" class="light" cx="76" cy="238" r="5"></circle>
             <circle id="light.entrance" class="light" cx="213" cy="202" r="5"></circle>
             <circle id="light.breezeway" class="light" cx="201" cy="128" r="5"></circle>
+            <circle id="light.office" class="light" cx="253" cy="128" r="5"></circle>
             <circle id="light.hallway" class="light" cx="312" cy="181" r="5"></circle>
             <circle id="light.toilet" class="light" cx="252" cy="211" r="5"></circle>
             <circle id="light.bathroom" class="light" cx="291" cy="211" r="5"></circle>
@@ -83,6 +84,7 @@
             <circle id="light.driveway" class="light" cx="335" cy="268" r="5"></circle>
             <circle id="light.bar_lamp" class="light" cx="5" cy="5" r="5"></circle>
             <circle id="light.bedroom" class="light" cx="451" cy="98" r="5"></circle>
+            <circle id="light.closet" class="light" cx="465" cy="211" r="5"></circle>
             <circle id="light.veranda" class="light" cx="48" cy="-77" r="5"></circle>
             <circle id="light.scullery" class="light" cx="11" cy="238" r="5"></circle>
             <circle id="light.laundry" class="light" cx="76" cy="288" r="5"></circle>

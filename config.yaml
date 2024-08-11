@@ -5,17 +5,17 @@ ui:
     - {{ .ConfigPath }}/assets/style.css
 modules:
   - name: simple-clock
-    uri: https://github.com/glasslabs/clock/releases/download/v1.0.0/clock.wasm
+    uri: https://github.com/glasslabs/clock/releases/download/v1.1.0/clock.wasm
     position: top:right
   - name: simple-weather
-    uri: https://github.com/glasslabs/weather/releases/download/v1.0.0/weather.wasm
+    uri: https://github.com/glasslabs/weather/releases/download/v1.1.0/weather.wasm
     position: top:left
     config:
       locationId: 996506
       appId: {{ .Secrets.weather.appId }}
       units: metric
   - name: simple-calendar
-    uri: https://github.com/glasslabs/calendar/releases/download/v1.0.0/calendar.wasm
+    uri: https://github.com/glasslabs/calendar/releases/download/v1.1.0/calendar.wasm
     position: top:right
     config:
       timezone: Africa/Johannesburg
@@ -24,7 +24,7 @@ modules:
         - url: https://www.calendarlabs.com/ical-calendar/ics/68/South_Africa_Holidays.ics
         - url: {{ .Secrets.calendar.myCalendar }}
   - name: solar
-    uri: https://github.com/glasslabs/solar/releases/download/v1.0.2/solar.wasm
+    uri: https://github.com/glasslabs/solar/releases/download/v1.1.0/solar.wasm
     position: bottom:left
     config:
       url: {{ .Secrets.hass.url }}
@@ -41,14 +41,14 @@ modules:
         low: 30
       maxWatts: 6000
   - name: hass-floorplan
-    uri: https://github.com/glasslabs/hass-floorplan/releases/download/v1.0.0/hass-floorplan.wasm
+    uri: https://github.com/glasslabs/hass-floorplan/releases/download/v1.1.0/hass-floorplan.wasm
     position: bottom:center
     config:
       url: {{ .Secrets.hass.url }}
       token: {{ .Secrets.hass.token }}
       floorplan: floorplan.svg
   - name: water
-    uri: https://github.com/glasslabs/water/releases/download/v0.1.3/water.wasm
+    uri: https://github.com/glasslabs/water/releases/download/v0.2.0/water.wasm
     position: bottom:right
     config:
       url: {{ .Secrets.hass.url }}
@@ -56,9 +56,10 @@ modules:
       sensorIds:
         geyserPct: sensor.geyser_hot_water
         tankPct: sensor.reservoir_percentage
+        waterConnected: binary_sensor.water_connected
       geyser:
-        warning: 60
+        warning: 50
         low: 40
       tank:
-        warning: 95
+        warning: 60
         low: 30
